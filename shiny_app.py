@@ -6,7 +6,6 @@ import copy
 from model.results import run_model
 from model.inputs import PlantInputs
 from model.scenarios import SCENARIOS
-import shinyswatch as sw
 
 
 ###############################################################

@@ -16,6 +16,23 @@ The system is structured into modular components:
 This repository implements a techno-economic model for an electrochemical lithium extraction process.
 
 It is organized into modular physics, process, and economic components, all integrated through `results.py` and visualized in a Streamlit/Shiny-style application.
+---
+
+# Creating Environment and Running App
+
+### 1. Install [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+### 2. Create conda env
+
+```bash
+conda env create -f environment.yml
+conda activate monolith
+```
+
+### 3. Run app
+```bash
+shiny run shiny_app.py
+
+```
 
 ---
 # Electrochemistry Model
