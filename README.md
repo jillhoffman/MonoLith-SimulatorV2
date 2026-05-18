@@ -12,10 +12,6 @@ The system is structured into modular components:
 
 ---
 # Monolith Simulator V2 — Full Model Documentation
-
-This repository implements a techno-economic model for an electrochemical lithium extraction process.
-
-It is organized into modular physics, process, and economic components, all integrated through `results.py` and visualized in a Streamlit/Shiny-style application.
 ---
 
 # Creating Environment and Running App
